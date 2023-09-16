@@ -1,0 +1,22 @@
+
+                 WELCOME TO LILIDOG!
+                        
+    This is the Lilidog i386 Bookworm build based
+    on the minimal build allowing users to select 
+    and install packages based on need.
+     
+    Check out our forum for more information:
+    https://www.forum.lilidog.org/
+    
+    For initial settings, please see the paw icon
+    located in the Tint2 panel. Font size, themes
+    wallpapers, and other options are available.
+
+    To install Lilidog, click on the green button 
+    in the system tray, or goto Menu All Programs
+    System - Install Lilidog. The 'root' password  
+    for the session is 'live'.
+    
+    The debian installer is also an option should
+    you prefer it. Reboot to access the menu.
+
