@@ -3,7 +3,6 @@ adwaita-icon-theme
 alsa-oss
 alsa-ucm-conf
 alsa-utils
-amd64-microcode
 anacron
 apt-transport-https
 apt-utils
@@ -29,7 +28,6 @@ dbus-x11
 desktop-base
 dialog
 dosfstools
-dunst
 e2fsprogs
 efibootmgr
 eject
@@ -69,7 +67,6 @@ hardinfo
 hdparm
 htop
 imagemagick
-intel-microcode
 inxi
 isc-dhcp-client
 iw
@@ -220,7 +217,6 @@ xserver-xorg-legacy
 xserver-xorg-input-all
 xserver-xorg-input-evdev
 xserver-xorg-input-libinput
-# xserver-xorg-input-synaptics
 xserver-xorg-input-wacom
 xserver-xorg-video-all
 xserver-xorg-video-amdgpu
