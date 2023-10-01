@@ -2,6 +2,7 @@
 
 lb config noauto \
      --architectures 'i386' \
+     --linux-flavours '686-pae' \
      --apt-recommends 'false' \
      --apt-source-archives 'false' \
      --apt-indices 'false' \
