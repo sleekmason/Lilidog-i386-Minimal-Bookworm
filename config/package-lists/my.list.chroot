@@ -28,6 +28,7 @@ dbus-x11
 desktop-base
 dialog
 dosfstools
+dunst
 e2fsprogs
 efibootmgr
 eject
