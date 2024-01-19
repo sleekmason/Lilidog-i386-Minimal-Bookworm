@@ -1,5 +1,6 @@
 Install Bluetooth,        x-terminal-emulator -T 'Bluetooth Installer' -e bash -c "bluetooth-installer; echo $'\n\nPress any key to close.'; read -srn1",             applications-utilities
 Install Brightness Tray Icon,  x-terminal-emulator -T 'Brightness And Gamma Tray Icon Installer' -e bash -c "bright-gamma-installer; echo $'\n\nPress any key to close.'; read -srn1",     applications-utilities
+Install Gnome Boxes,      x-terminal-emulator -T 'Gnome Boxes Installer' -e bash -c "gnome-boxes-installer; echo $'\n\nPress any key to close.'; read -srn1",         applications-utilities
 Install Jgmenu Default,    x-terminal-emulator -T 'Jgmenu Default Config Installer' -e bash -c "jgmenu-default-installer; echo $'\n\nPress any key to close.'; read -srn1",   applications-utilities
 Install KDEconnect,       x-terminal-emulator -T 'KDEconnect Installer' -e bash -c "kdeconnect-installer; echo $'\n\nPress any key to close.'; read -srn1",           applications-utilities
 Install LD Update Checker, x-terminal-emulator -T 'LD apt update checker installer' -e bash -c "ld-apt-update-installer; echo $'\n\nPress any key to close.'; read -srn1",      applications-utilities
