@@ -83,11 +83,6 @@
 					<execute>urxvt -g 120x40+120+100 -e newsboat</execute>
 				</action>
 			</item>
-			<item icon="/usr/share/pixmaps/smplayer.xpm" label="SmPlayer">
-				<action name="Execute">
-					<execute>smplayer</execute>
-				</action>
-			</item>
 			<item icon="/usr/share/icons/gnome/24x24/categories/applications-graphics.png" label="Gpicview">
 				<action name="Execute">
 					<execute>gpicview</execute>
@@ -171,12 +166,6 @@
 				&gt;
 				<action name="Execute">
 					<execute>x-terminal-emulator -T 'inxi -Fxrz' -e bash -c "inxi -Fxrz; echo $'\n\nPress any key to close'; read -srn1"</execute>
-				</action>
-			</item>
-			<item icon="/usr/share/pixmaps/transmission.xpm" label="Transmission">
-				&gt;
-				<action name="Execute">
-					<execute>transmission-gtk</execute>
 				</action>
 			</item>
 			<item icon="/usr/share/icons/gnome/24x24/categories/applications-other.png" label="G-Alternatives">
