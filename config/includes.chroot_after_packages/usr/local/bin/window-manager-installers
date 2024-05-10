@@ -5,8 +5,8 @@ yad --title "WM Installers" --escape-ok \
 --text="\nWindow Manager Installers\n" --text-align=center \
 --window-icon=applications-utilities \
     --form \
-    --field="    Awesome WM!/usr/share/icons/gnome/22x22/categories/preferences-system.png":FBTN "x-terminal-emulator -T 'Awesome WM Installer' -e bash -c "awesome-installer"" \
-    --field="                     i3 WM!/usr/share/icons/gnome/22x22/categories/preferences-system.png":FBTN "x-terminal-emulator -T 'i3 WM Installer' -e bash -c "i3wm-installer"" \
+    --field="Awesome WM":FBTN "x-terminal-emulator -T 'Awesome WM Installer' -e bash -c "awesome-installer"" \
+    --field="i3 WM":FBTN "x-terminal-emulator -T 'i3 WM Installer' -e bash -c "i3wm-installer"" \
     --field="":LBL "" \
     --field="":LBL "" \
     --field="   Other Installers!/usr/share/icons/gnome/22x22/categories/applications-other.png":FBTN "bash -c 'ld-installers'"
