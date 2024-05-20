@@ -1,11 +1,11 @@
-Install Bluetooth,        x-terminal-emulator -T 'Bluetooth Installer' -e bash -c "bluetooth-installer; echo $'\n\nPress any key to close.'; read -srn1",             applications-utilities
-Install Brightness Tray Icon,  x-terminal-emulator -T 'Brightness And Gamma Tray Icon Installer' -e bash -c "bright-gamma-installer; echo $'\n\nPress any key to close.'; read -srn1",     applications-utilities
-Install Gnome Boxes,      x-terminal-emulator -T 'Gnome Boxes Installer' -e bash -c "gnome-boxes-installer; echo $'\n\nPress any key to close.'; read -srn1",         applications-utilities
-Install KDEconnect,       x-terminal-emulator -T 'KDEconnect Installer' -e bash -c "kdeconnect-installer; echo $'\n\nPress any key to close.'; read -srn1",           applications-utilities
-Install LD Update Checker, x-terminal-emulator -T 'LD apt update checker installer' -e bash -c "ld-apt-update-installer; echo $'\n\nPress any key to close.'; read -srn1",      applications-utilities
-Install Pcmanfm,          x-terminal-emulator -T 'Pcmanfm Installer' -e bash -c "pcmanfm-installer; echo $'\n\nPress any key to close.'; read -srn1",                 applications-utilities
-Install Qemu VM,          x-terminal-emulator -T 'Qemu Installer' -e bash -c "qemu-installer; echo $'\n\nPress any key to close.'; read -srn1",                       applications-utilities
-Install Synaptic,         x-terminal-emulator -T 'Synaptic Installer' -e bash -c "synaptic-installer; echo $'\n\nPress any key to close.'; read -srn1",               applications-utilities
-Install Virtualbox,       x-terminal-emulator -T 'Virtualbox Installer' -e bash -c "virtualbox-installer; echo $'\n\nPress any key to close.'; read -srn1",           applications-utilities
-Install Xscreensaver,     x-terminal-emulator -T 'Xscreensaver Installer' -e bash -c "xscreensaver-installer; echo $'\n\nPress any key to close.'; read -srn1",       applications-utilities
-Install zsh shell,        x-terminal-emulator -T 'zsh Installer' -e bash -c "zsh-installer; echo $'\n\nPress any key to close.'; read -srn1",                         applications-utilities
+Bluetooth,        x-terminal-emulator -T 'Bluetooth Installer' -e bash -c "bluetooth-installer",                              applications-utilities
+Brightness Tray Icon,  x-terminal-emulator -T 'Brightness And Gamma Tray Icon Installer' -e bash -c "bright-gamma-installer", applications-utilities
+Gnome Boxes,      x-terminal-emulator -T 'Gnome Boxes Installer' -e bash -c "gnome-boxes-installer",                          applications-utilities
+KDEconnect,       x-terminal-emulator -T 'KDEconnect Installer' -e bash -c "kdeconnect-installer",                            applications-utilities
+LD Update Checker, x-terminal-emulator -T 'LD apt update checker installer' -e bash -c "ld-apt-update-installer",             applications-utilities
+Pcmanfm,          x-terminal-emulator -T 'Pcmanfm Installer' -e bash -c "pcmanfm-installer",                                  applications-utilities
+Qemu VM,          x-terminal-emulator -T 'Qemu Installer' -e bash -c "qemu-installer",                                        applications-utilities
+Synaptic,         x-terminal-emulator -T 'Synaptic Installer' -e bash -c "synaptic-installer",                                applications-utilities
+Virtualbox,       x-terminal-emulator -T 'Virtualbox Installer' -e bash -c "virtualbox-installer",                            applications-utilities
+Xscreensaver,     x-terminal-emulator -T 'Xscreensaver Installer' -e bash -c "xscreensaver-installer",                        applications-utilities
+zsh shell,        x-terminal-emulator -T 'zsh Installer' -e bash -c "zsh-installer",                                          applications-utilities
