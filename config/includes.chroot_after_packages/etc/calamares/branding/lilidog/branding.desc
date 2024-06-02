@@ -7,8 +7,8 @@ windowSize: 800px,520px
 windowPlacement: center
 
 strings:
-    productName:         Lilidog i386 GNU/Linux
-    shortProductName:    Lilidog i386
+    productName:         Lilidog GNU/Linux
+    shortProductName:    Lilidog
     version:             12 (bookworm)
     shortVersion:        12
     versionedName:       Lilidog 12 (bookworm)
