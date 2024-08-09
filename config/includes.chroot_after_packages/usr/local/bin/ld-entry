@@ -198,7 +198,7 @@ _autologin() {
 }
 
 _reboot() {
-      _msg="Update complete. Reboot? (Y if new kernel installed)"
+      _msg="Reboot? - (Y if new kernel or lightdm change.)"
       do_it() { sed -i '/welcome-backend.sh.*/d' /home/"${SUDO_USER}"/.config/openbox/autostart
 		  if ! grep hypervisor /proc/cpuinfo ; then
           sed -i '/vmrestore.*/d' /home/"${SUDO_USER}"/.config/openbox/autostart
