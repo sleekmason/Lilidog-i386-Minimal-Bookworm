@@ -7,6 +7,7 @@ yad --title "WM Installers" --escape-ok \
     --form \
     --field="Awesome WM":FBTN "x-terminal-emulator -T 'Awesome WM Installer' -e bash -c "awesome-installer"" \
     --field="i3 WM":FBTN "x-terminal-emulator -T 'i3 WM Installer' -e bash -c "i3wm-installer"" \
+    --field="JWM":FBTN "x-terminal-emulator -T 'JWM Installer' -e bash -c "jwm-installer"" \
     --field="":LBL "" \
     --field="":LBL "" \
     --field="   Other Installers!/usr/share/icons/gnome/22x22/categories/applications-other.png":FBTN "bash -c 'ld-installers'"
