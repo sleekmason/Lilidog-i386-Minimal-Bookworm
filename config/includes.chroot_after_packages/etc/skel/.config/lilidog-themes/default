@@ -173,6 +173,11 @@ set -m; conky -q -c "$HOME/.config/conky/conky-shortcuts.conf" &> /dev/null
 fi
 fi
 
+# Move ~/.local/bin/ld-logout to .bak
+if test -e "$HOME/.local/bin/ld-logout"; then
+mv -f "$HOME/.local/bin/ld-logout" "$HOME/.local/bin/ld-logout.bak"
+fi
+
 # These lines are for the light/dark toggle and the custom toggle. Do not remove.
 # Comment these lines in Custom-Theme or Light-Dark-Theme if copying a named theme.
 rm -f ~/.cache/temp_theme
